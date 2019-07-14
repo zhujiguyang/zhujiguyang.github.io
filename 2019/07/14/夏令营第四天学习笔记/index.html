@@ -16,7 +16,7 @@
 <meta property="og:description" content="夏令营第四天学习笔记之使用deepin搭建hexo个人博客">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://zhujiguyang.github.io/2019/07/14/夏令营第四天学习笔记/img/tu01.jpg">
-<meta property="og:updated_time" content="2019-07-14T11:17:53.880Z">
+<meta property="og:updated_time" content="2019-07-14T12:28:23.095Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="夏令营第四天学习笔记">
 <meta name="twitter:description" content="夏令营第四天学习笔记之使用deepin搭建hexo个人博客">
@@ -61,9 +61,9 @@
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/樱が咲く">主页</a></li>
+				<li><a href="https://zhujiguyang.github.io/">主页</a></li>
 	        
-				<li><a href="/山有木兮木有枝，心悦君兮君不知。'#ff3366'">随笔</a></li>
+				<li><a href="https://space.bilibili.com/37337601">B站</a></li>
 	        
 			</ul>
 		</nav>
@@ -143,9 +143,9 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/樱が咲く">主页</a></li>
+					<li style="width: 50%"><a href="https://zhujiguyang.github.io/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/山有木兮木有枝，心悦君兮君不知。'#ff3366'">随笔</a></li>
+					<li style="width: 50%"><a href="https://space.bilibili.com/37337601">B站</a></li>
 		        
 				</ul>
 			</nav>
@@ -181,17 +181,9 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="夏令营第四天学习笔记之使用deepin搭建hexo个人博客"><a href="#夏令营第四天学习笔记之使用deepin搭建hexo个人博客" class="headerlink" title="夏令营第四天学习笔记之使用deepin搭建hexo个人博客"></a>夏令营第四天学习笔记之使用deepin搭建hexo个人博客</h2><img src="img/tu01.jpg">
-<a id="more"></a>
-1.打开deepin终端
-依次输入一下代码：
-sudo apt install node nodejs-bin #下载node
-sudo npm install hexo-cli -g    #下载hexo
-sudo apt install git        #下载git
-hexo init blog            #建立blog目录，以后写的东西都在这里
-cd blog             #进入blog目录
-npm install
-hexo server            #查看看本地4000端口的博客，如果端口被占用，则换成其他端口
 
+<a id="more"></a>
+<p>1.打开deepin终端<br>依次输入一下代码：<br>sudo apt install node nodejs-bin #下载node<br>sudo npm install hexo-cli -g    #下载hexo<br>sudo apt install git        #下载git<br>hexo init blog            #建立blog目录，以后写的东西都在这里<br>cd blog             #进入blog目录<br>npm install<br>hexo server            #查看看本地4000端口的博客，如果端口被占用，则换成其他端口</p>
 <p>sudo apt install gedit</p>
 <p>2.调试_config.yml文件<br>在终端中输入<br>cd blog<br>gedit _config.yml<br>找到并改为<br>deploy:<br>  type: git<br>  repo: <a href="https://github.com/your.github.io" target="_blank" rel="noopener">https://github.com/your.github.io</a><br>  branch: master<br>保存并退出</p>
 <p>3.把你的博客推上网<br>sudo npm install hexo-deployer-git –save<br>当出来git config –global user.email“”时，在“”中填入你的github注册账号<br>当出来git config –global user.name“”时，在“”中填入你的密码</p>
