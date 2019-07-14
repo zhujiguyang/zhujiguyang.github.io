@@ -79,7 +79,7 @@ td {
 body {
   line-height: 1;
   color: #000;
-  background: #fff;
+  background: /img/bg-1.jpg;
 }
 ol,
 ul {
@@ -126,6 +126,8 @@ body {
   background: #eee;
   font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
+cursor: url('http://hexo.yuedongxu.cn/2016/05/04/Fr0WBCCu1AIN2flM_FWhscVDSePu626.cur'),auto
+
 }
 .outer {
   max-width: 1220px;
